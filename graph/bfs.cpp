@@ -7,7 +7,7 @@ void bfs(vector<int>adj[],int V){
 	vector<int>vis(V+1,0);
 	for(int i=1;i<=V;i++){
 		if(!vis[i]){
-				queue<int>q;
+			queue<int>q;
 			q.push(i);
 			vis[i]=1;
 			while(!q.empty()){
